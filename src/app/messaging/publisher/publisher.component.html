@@ -1,0 +1,8 @@
+<h3>Ritesh</h3>
+<input type="text" [(ngModel)]="message">
+<button (click)="sendMessage()">Send</button>
+<ul>
+    <li style="list-style: none;" *ngFor="let msg of messageHistory.reverse()">
+      <span [ngClass]="{green: msg.name==='Ritesh', red: msg.name==='Vipin'}">{{msg.name | uppercase}}</span>: {{msg.message}}
+    </li>
+  </ul>

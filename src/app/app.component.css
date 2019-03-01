@@ -1,0 +1,23 @@
+.mainWrapper{
+    width:450px;
+    text-align:center;
+    margin:auto 0px;
+}
+.tiles{
+    float:left;
+    
+    border: 1px solid black;
+    height:50px;
+    width: 50px;
+    text-align:center;
+    cursor:pointer;
+}
+.tiles div{
+    padding-top:20%;
+}
+.red{
+    background-color:red;
+}
+.green{
+    background-color:green;
+}

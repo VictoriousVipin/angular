@@ -1,0 +1,24 @@
+<h3>Home Page</h3>
+<p>
+  <button (click)="loadData(0)">Load First Data</button>
+  <button (click)="loadData(1)">Load Second Data</button>
+  <button (click)="loadData(2)">Load Third Data</button>
+</p>
+<ul>
+  <li>
+    {{data?.title}}
+  </li>
+</ul>
+Current Time: 
+{{currentTime}}
+<p>
+Square Root of 36 :- {{36 | squareroot}}
+</p>
+<p>
+  2 power 5:- {{2 | powerof: 5}}
+</p>
+
+<p appMakeRed>This is red text</p>
+<appMakeGreen>This is green text</appMakeGreen>
+<appMakeColored color="blue">This is colored text</appMakeColored>
+<div *myIf="false">Vipin MyIF</div>
